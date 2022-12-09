@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(0, 21, 34);
+    
+}
+.fancy-button { 
+    border: 3px solid;
+    border-color: orangered;
+    padding: 1rem;
+    color: orangered;
+    background-color: transparent;
+    font-weight: bold;
+    transition: all 0.3s;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+
+.fancy-button:hover {
+    color: white;
+    border-color: chartreuse;
+    box-shadow: 0 8px 6px -6px chartreuse;
+    margin-top: -5px;
+}
+
